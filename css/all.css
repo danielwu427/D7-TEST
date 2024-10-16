@@ -60,13 +60,13 @@ body {
 .cheerupBoy {
   position: absolute;
   right: 318px;
-  bottom: -35px;
+  bottom: 10px;
 }
 
 .cheerupGirl {
   position: absolute;
   left: 318px;
-  bottom: -35px;
+  bottom: 10px;
 }
 
 .drawcardAnimation h5 {
@@ -119,7 +119,7 @@ body {
   font-weight: 700;
   color: #ffffff;
   border: 0px solid;
-  margin-top: 550px;
+  margin-top: 500px;
   opacity: 0;
   z-index: 500;
   cursor: pointer;
@@ -249,4 +249,16 @@ body {
   color: #FFFFFF;
   border: 0 solid;
   cursor: pointer;
+}
+
+.illustrations {
+  position: relative;
+}
+.illustrations .heroBoy {
+  position: absolute;
+  left: 300px;
+}
+.illustrations .heroGirl {
+  position: absolute;
+  right: 300px;
 }/*# sourceMappingURL=all.css.map */
