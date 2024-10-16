@@ -60,13 +60,13 @@ body {
 .cheerupBoy {
   position: absolute;
   right: 318px;
-  bottom: 10px;
+  bottom: -35px;
 }
 
 .cheerupGirl {
   position: absolute;
   left: 318px;
-  bottom: 10px;
+  bottom: -35px;
 }
 
 .drawcardAnimation h5 {
@@ -108,6 +108,7 @@ body {
   position: absolute;
   -webkit-transform: rotate(45deg);
           transform: rotate(45deg);
+  bottom: 90px;
   right: 650px;
 }
 
@@ -201,7 +202,7 @@ body {
   gap: 80px;
   padding: 48px;
   width: 960px;
-  background-color: #fff;
+  background-color: #FFE5BF;
   border-radius: 48px;
   position: relative;
 }
@@ -261,4 +262,18 @@ body {
 .illustrations .heroGirl {
   position: absolute;
   right: 300px;
+}
+
+.starssixpointedSmall {
+  position: absolute;
+  bottom: 50px;
+  left: -30px;
+  z-index: 999;
+}
+
+.starssixpointedLarge {
+  position: absolute;
+  top: 530px;
+  right: 1330px;
+  z-index: 999;
 }/*# sourceMappingURL=all.css.map */
